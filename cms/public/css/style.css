@@ -1,0 +1,40 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+nav {
+  background-color: #FFFFFF;
+}
+
+nav .brand-logo {
+  color: #000;
+  font-size: 2.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+nav ul a {
+  color: #000;
+}
+
+nav a {
+  color: #000;
+}
+
+.parallax-container {
+  height: 200px;
+}
+
+.page-footer {
+  color: #000;
+  background-color: #FFFFFF;
+}
+
+.page-footer .footer-copyright {
+  color: #000;
+}
