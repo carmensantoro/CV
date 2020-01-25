@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "Cv",
+  "info": {
+    "name": "cv",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Surname": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Email": {
+      "type": "email"
+    },
+    "About": {
+      "required": true,
+      "type": "text"
+    },
+    "Education": {
+      "required": true,
+      "type": "text"
+    },
+    "Experience": {
+      "required": true,
+      "type": "text"
+    },
+    "Skills": {
+      "required": true,
+      "type": "text"
+    }
+  }
+}
