@@ -44,8 +44,23 @@
 
   <main>
     <!--CV-->
-    <script src="js/cv.js"></script>
-    <div id="Name"></div>
+    <div class="row">
+   <div class="col s6 offset-s3">
+     <div class="card-panel teal">
+       <span class="white-text">
+         <p><span class="subject">Name: </span><span class="curriculum" id="Name"></span></p>
+         <p><span class="subject">Surname: </span><span class="curriculum" id="Surname"></span></p>
+         <p><span class="subject">Email: </span><span class="curriculum" id="Email"></span></p>
+         <p><span class="subject">About: </span><span class="curriculum" id="About"></span></p>
+         <p><span class="subject">Education: </span><span class="curriculum" id="Education"></span></p>
+         <p><span class="subject">Experience: </span><span class="curriculum" id="Experience"></span></p>
+         <p><span class="subject">Skills: </span><span class="curriculum" id="Skills"></span></p>
+       </span>
+     </div>
+   </div>
+ </div>
+
+
 
 
 
@@ -87,9 +102,11 @@
     </footer>
 
     <!--Script-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/parallax.js"></script>
     <script type="text/javascript" src="js/sidenav.js"></script>
+    <script src="js/cv.js"></script>
   </body>
 
   </html>

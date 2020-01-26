@@ -36,6 +36,15 @@ nav a {
   color: #000;
 }
 
+.subject {
+  font-size: 1.64rem;
+
+}
+
+.curriculum {
+  font-size: 1.15rem;
+}
+
 .parallax-container {
   height: 200px;
 }

@@ -1,3 +1,5 @@
+showdown.setOption('simpleLineBreaks', true);
+
 var request = new XMLHttpRequest();
 
 request.open("GET", "http://localhost:1337/cvs");
@@ -12,6 +14,12 @@ request.onload = () => {
       let el = document.getElementById(key);
       if(el !== null){
         el.innerHTML = converter.makeHtml(value);
+        if(el.childElementCount === 1){
+          el = el.firstChild;
+          var parent = el.parentNode;
+          while (el.firstChild) parent.insertBefore(el.firstChild, el);
+          parent.removeChild(el);
+        }
       }
     });
   } else {
