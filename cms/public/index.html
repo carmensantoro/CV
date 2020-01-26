@@ -8,10 +8,13 @@
 
   <title>Santoro Carmen Agnese</title>
 
-<!--CSS-->
-<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <!--Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--CSS-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,15 +25,23 @@
         <a href="#" class="brand-logo">Curriculum Vitae</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="login.html">Login</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
-<!--CV-->
-<div id="root"></div>
-    <script src="js/scripts.js"></script>
+  <!--Mobile Button-->
+  <ul class="sidenav" id="mobile-demo">
+    <li><div class="user-view">
+        <li><a href="login.html">Login</a></li>
+      </div></li>
+  </ul>
+  <!--End Mobile Button and end nav-->
+
+  <!--CV-->
+  <div id="root"></div>
+  <script src="js/scripts.js"></script>
 
 
 
@@ -70,9 +81,12 @@
       </div>
     </footer>
 
-<!--Script-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="js/parallax.js"></script>
-</body>
+    <!--Script-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/sidenav.js"></script>
+    <!--Axios Library-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
 
-</html>
+  </html>
