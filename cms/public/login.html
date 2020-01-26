@@ -7,13 +7,45 @@
 
   <title>Santoro Carmen Agnese</title>
 
+  <!--Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!--CSS-->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
+  <header>
+  <!--Navbar-->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Curriculum Vitae</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--Mobile Button-->
+  <ul class="sidenav" id="mobile-demo">
+    <li><div class="user-view">
+      <li><a href="index.html">Home</a></li>
+    </div></li>
+  </ul>
+  <!--End Mobile Button and end nav-->
+</header>
+
+<main>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/5.jpg"></div>
+  </div>
+
+<!--Login-->
   <div class="row">
     <form class="col s12 m6">
       <div class="row">
@@ -29,18 +61,57 @@
         </div>
       </div>
 
-  <div class="row">
-            <div class="input-field col s6 offset-s9">
-              <a href="#" class="btn waves-effect waves-light col s12">Login</a>
-            </div>
-          </div>
-        </form>
+      <div class="row">
+        <div class="input-field col s6 offset-s9">
+          <a href="#" class="btn waves-effect waves-light col s12">Login</a>
+        </div>
       </div>
-  <!--Script-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <!--Axios Library-->
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <!--Login-->
-  <script type="text/javascript" src="js/login.js"></script>
-</body>
-</html>
+    </form>
+  </div>
+<!--End Login-->
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/5.jpg"></div>
+  </div>
+</main>
+
+  <!--Footer-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">Credits</h5>
+          <p class="black-text">
+            Design by <a class="links" href="https://materializecss.com/">Materialize</a><br>
+          </div>
+
+          <div class="col l4 offset-l2 s12">
+            <h5 class="black-text">Links</h5>
+            <ul>
+              <li><a class="links" href="mailto:s.carmen2101@gmail.com"><i class="far fa-envelope"></i> Email</a></li>
+              <li><a class="links" href="https://www.linkedin.com/in/carmenagnesesantoro/?locale=en_US"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+              <li><a class="links" href="https://www.facebook.com/carmen.agnese.santoro"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+              <li><a class="links" href="https://www.instagram.com/usagica/"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a class="links" href="https://github.com/Choppychan"><i class="fab fa-github"></i> Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Carmen Agnese Santoro
+        </div>
+      </div>
+    </footer>
+
+
+    <!--Script-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/sidenav.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <!--Axios Library-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--Login-->
+    <script type="text/javascript" src="js/login.js"></script>
+  </body>
+  </html>
