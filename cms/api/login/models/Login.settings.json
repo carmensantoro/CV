@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "Login",
+  "info": {
+    "name": "login",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Password": {
+      "required": true,
+      "type": "password"
+    },
+    "Username": {
+      "unique": true,
+      "required": true,
+      "type": "email"
+    }
+  }
+}
