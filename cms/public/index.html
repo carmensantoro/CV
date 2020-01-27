@@ -10,10 +10,6 @@
 
   <!--Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/v4-shims.js"></script>
 
   <!--CSS-->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -53,24 +49,28 @@
         <!--Topside of the Cv-->
         <div class="card-panel teal darken-1">
           <span class="white-text">
-            <p>
-              <i class="fas fa-globe fa-9x "></i>
-              <span class="curriculum" id="Surname"></span>
-              <span class="curriculum" id="Name"></span>
+            <div>
+              <img class="center" src="images/global.png">
+              <p class="center-text">
+                <span class="curriculum-surname" id="Surname"> </span>
+                <span class="curriculum-name" id="Name"></span>
+              </p>
+              <p class="center-text">
+                <span class="center" style="font-size: 1.50rem;" id="Qualification"></span>
+              </p>
+              <p class="center-text">
+                <img src="images/icon.png">
+              <span id="MobileNumbers" style="font-size: 1.50rem;" class="curriculum"></span>
             </p>
-            <p>
-              <span class="center" id="Qualification"></span>
-            </p>
-            <p>
-              <span class="" id="Number"></span>
-              <blockquote>
-                <span class="curriculum" id="Email"></span>
-              </blockquote>
-            </p>
+            <p class="center-text">
+                <img src="images/icon.png">
+                <span class="curriculum" style="font-size: 1.50rem;" id="Email"></span>
+</p>
+            </div>
             <!--Underside of the Cv-->
             <div class="card-panel teal darken-3">
               <span class="white-text">
-                <p><span class="subject">About: </span><span class="curriculum" id="About"></span></p>
+                <p><span class="subject">About: </br></span><span class="curriculum" id="About"></span></p>
                 <p><span class="subject">Education: </span><span class="curriculum" id="Education"></span></p>
                 <p><span class="subject">Experience: </span><span class="curriculum" id="Experience"></span></p>
                 <p><span class="subject">Skills: </span><span class="curriculum" id="Skills"></span></p>
@@ -110,6 +110,7 @@
               <h5 class="black-text">Credits</h5>
               <p class="black-text">
                 Design by <a class="links" href="https://materializecss.com/">Materialize</a><br>
+                Global Icon made by <a href="https://www.flaticon.com/authors/srip" title="Srip">Srip</a>
               </div>
 
               <div class="col l4 offset-l2 s12">
