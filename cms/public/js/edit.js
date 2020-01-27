@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 
-request.open("GET", "http://localhost:1337/cvs");
+request.open("GET", "/cvs");
 request.onload = () => {
   if (request.status ==200) {
     let response = JSON.parse(request.response);
@@ -19,3 +19,8 @@ request.onload = () => {
   }
 }
 request.send();
+
+document.getElementById('Save').onclick = function(e){
+  e.preventDefault();
+  M.toast({html: "Saved! (mocked up)", classes: 'green'});
+}

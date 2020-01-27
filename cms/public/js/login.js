@@ -1,6 +1,8 @@
+// Code for sending login information with axios, commented out for mock up
 
+/*
 axios
-  .post('http://localhost:1337/auth/local', {
+  .post('/auth/local', {
     identifier: 'user@strapi.io',
     password: 'strapiPassword',
   })
@@ -14,3 +16,4 @@ axios
 
     console.log('An error occurred:', error);
   });
+*/

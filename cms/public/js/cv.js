@@ -5,11 +5,10 @@ let contactEmail = "";
 
 var request = new XMLHttpRequest();
 
-request.open("GET", "http://localhost:1337/cvs");
+request.open("GET", "/cvs");
 request.onload = () => {
   if (request.status ==200) {
     let response = JSON.parse(request.response);
-    console.log(response);
     let converter = new showdown.Converter();
     Object.entries(response[0]).forEach(function(entry){
       let key = entry[0];
@@ -42,7 +41,6 @@ document.getElementById('Send').onclick = function(e){
   let subject = document.getElementById('Subject').value;
   let message = document.getElementById('Message').value;
   let href = "mailto:" + contactEmail + "?Subject=" + subject + " - " + lastName + " " + firstName + "&Body=" + message;
-  console.log(href);
   location.href = href;
 
 }
