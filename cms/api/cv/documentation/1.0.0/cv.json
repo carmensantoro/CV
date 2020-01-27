@@ -542,6 +542,9 @@
           },
           "Skills": {
             "type": "string"
+          },
+          "Qualification": {
+            "type": "string"
           }
         }
       },
@@ -574,6 +577,9 @@
             "type": "string"
           },
           "Skills": {
+            "type": "string"
+          },
+          "Qualification": {
             "type": "string"
           }
         }

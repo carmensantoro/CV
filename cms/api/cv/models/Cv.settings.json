@@ -39,6 +39,9 @@
     "Skills": {
       "required": true,
       "type": "text"
+    },
+    "Qualification": {
+      "type": "text"
     }
   }
 }
