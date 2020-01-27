@@ -82,66 +82,93 @@
             </div>
           </div>
         </div>
-        <!--End CV-->
+      </div>
+      <!--End CV-->
 
-        <div class="parallax-container">
-          <div class="parallax"><img src="images/5.jpg"></div>
-        </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/5.jpg"></div>
+      </div>
 
-        <!--Form-->
-        <div class="row">
-          <form class="col s12 m6">
-            <div class="row">
-              <div class="input-field col s12 offset-s6">
-                <input id="first_name" type="text" class="validate">
-                <label for="first_name">First Name</label>
-              </div>
-              <div class="input-field col s12 offset-s6">
-                <input id="last_name" type="text" class="validate">
-                <label for="last_name">Last Name</label>
-              </div>
-            </div>
-          </form>
-        </div>
-        <!--End Form-->
-      </main>
-
-      <!--Footer-->
-      <footer class="page-footer">
-        <div class="container">
+      <!--Form-->
+      <div class="row">
+        <form class="card-panel col s6 offset-s3 teal lighten-5">
+          <h1 class="col s6 offset-s3">Contact me</h1>
+          <!--First Section-->
+          <!--Last name-->
           <div class="row">
-            <div class="col l6 s12">
-              <h5 class="black-text">Credits</h5>
-              <p class="black-text">
-                Design by <a class="links" href="https://materializecss.com/">Materialize</a><br>
-                Global Icon made by <a href="https://www.flaticon.com/authors/srip" title="Srip">Srip</a>
-              </div>
-
-              <div class="col l4 offset-l2 s12">
-                <h5 class="black-text">Links</h5>
-                <ul>
-                  <li><a class="links" href="mailto:s.carmen2101@gmail.com"><i class="far fa-envelope"></i> Email</a></li>
-                  <li><a class="links" href="https://www.linkedin.com/in/carmenagnesesantoro/?locale=en_US"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
-                  <li><a class="links" href="https://www.facebook.com/carmen.agnese.santoro"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                  <li><a class="links" href="https://www.instagram.com/usagica/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                  <li><a class="links" href="https://github.com/Choppychan"><i class="fab fa-github"></i> Github</a></li>
-                </ul>
-              </div>
+            <div class="input-field col s6">
+              <input id="Last_Name" type="text" class="validate">
+              <label for="Last_Name">Last Name</label>
+            </div>
+            <!--First Name-->
+            <div class="input-field col s6">
+              <input id="First_Name" type="text" class="validate">
+              <label for="First_Name">First Name</label>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-              © 2019 Carmen Agnese Santoro
+          <!--End First Section-->
+
+          <!--Second Section-->
+          <!--Email-->
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="Email" type="email" class="validate">
+              <label for="Email">Email</label>
+              <span class="helper-text" data-error="wrong" data-success="right"></span>
+            </div>
+            <!--Message-->
+            <div class="input-field col s6">
+              <textarea id="Message" class="materialize-textarea"></textarea>
+              <label for="Message">Message</label>
             </div>
           </div>
-        </footer>
+          <!--End Second Section-->
 
-        <!--Script-->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/parallax.js"></script>
-        <script type="text/javascript" src="js/sidenav.js"></script>
-        <script src="js/cv.js"></script>
-      </body>
+          <!--Send-->
+          <div class="row">
+            <a href="#" id="Send" class="btn waves-effect waves-light col s6 offset-s3">Send</a>
+          </div>
+        </form>
+      </div>
+  <!--End Form-->
+</main>
 
-      </html>
+<!--Footer-->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="black-text">Credits</h5>
+        <p class="black-text">
+          Design by <a class="links" href="https://materializecss.com/">Materialize</a><br>
+          Global Icon made by <a href="https://www.flaticon.com/authors/srip" title="Srip">Srip</a>
+        </div>
+
+        <div class="col l4 offset-l2 s12">
+          <h5 class="black-text">Links</h5>
+          <ul>
+            <li><a class="links" href="mailto:s.carmen2101@gmail.com"><i class="far fa-envelope"></i> Email</a></li>
+            <li><a class="links" href="https://www.linkedin.com/in/carmenagnesesantoro/?locale=en_US"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+            <li><a class="links" href="https://www.facebook.com/carmen.agnese.santoro"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a class="links" href="https://www.instagram.com/usagica/"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a class="links" href="https://github.com/Choppychan"><i class="fab fa-github"></i> Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Carmen Agnese Santoro
+      </div>
+    </div>
+  </footer>
+
+  <!--Script-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/parallax.js"></script>
+  <script type="text/javascript" src="js/sidenav.js"></script>
+  <script src="js/cv.js"></script>
+</body>
+
+</html>
