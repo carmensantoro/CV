@@ -42,6 +42,10 @@
     },
     "Qualification": {
       "type": "text"
+    },
+    "MobileNumbers": {
+      "required": true,
+      "type": "text"
     }
   }
 }

@@ -516,7 +516,8 @@
           "About",
           "Education",
           "Experience",
-          "Skills"
+          "Skills",
+          "MobileNumbers"
         ],
         "properties": {
           "id": {
@@ -545,6 +546,9 @@
           },
           "Qualification": {
             "type": "string"
+          },
+          "MobileNumbers": {
+            "type": "string"
           }
         }
       },
@@ -555,7 +559,8 @@
           "About",
           "Education",
           "Experience",
-          "Skills"
+          "Skills",
+          "MobileNumbers"
         ],
         "properties": {
           "Name": {
@@ -580,6 +585,9 @@
             "type": "string"
           },
           "Qualification": {
+            "type": "string"
+          },
+          "MobileNumbers": {
             "type": "string"
           }
         }

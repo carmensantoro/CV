@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/27/2020 10:18:51 AM"
+    "x-generation-date": "01/27/2020 11:21:35 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3118,7 +3118,8 @@
           "About",
           "Education",
           "Experience",
-          "Skills"
+          "Skills",
+          "MobileNumbers"
         ],
         "properties": {
           "id": {
@@ -3147,6 +3148,9 @@
           },
           "Qualification": {
             "type": "string"
+          },
+          "MobileNumbers": {
+            "type": "string"
           }
         }
       },
@@ -3157,7 +3161,8 @@
           "About",
           "Education",
           "Experience",
-          "Skills"
+          "Skills",
+          "MobileNumbers"
         ],
         "properties": {
           "Name": {
@@ -3182,6 +3187,9 @@
             "type": "string"
           },
           "Qualification": {
+            "type": "string"
+          },
+          "MobileNumbers": {
             "type": "string"
           }
         }
