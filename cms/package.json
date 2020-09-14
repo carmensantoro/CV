@@ -23,6 +23,7 @@
     "knex": "latest",
     "lodash": "^4.17.19",
     "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
     "pg": "^7.17.1",
     "showdown": "^1.9.1",
     "sqlite3": "latest",
